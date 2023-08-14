@@ -8,6 +8,12 @@ CREATE TABLE products (
     product_name VARCHAR(100),
     category_id INT,
     price DECIMAL(10, 2)
+);
+-- Create the lookup table for categories
+CREATE TABLE categories (
+    category_id INT PRIMARY KEY,
+    category_name VARCHAR(50)
 )
+
 
 
