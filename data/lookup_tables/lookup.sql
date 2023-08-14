@@ -10,9 +10,4 @@ CREATE TABLE products (
     price DECIMAL(10, 2)
 )
 
--- Create the lookup table for categories
-CREATE TABLE categories (
-    category_id INT PRIMARY KEY,
-    category_name VARCHAR(50)
-);
 
