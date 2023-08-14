@@ -1,6 +1,6 @@
 --liquibase formatted sql
---changeset AUTHOR:CHANGESET_NAME runOnChange:true stripComments:false
---comment OPTIONAL COMMENT
+--changeset hareesh:2 runOnChange:true stripComments:false
+--comment comment2
 
 -- Create a table to store employee information
 CREATE TABLE employees (
