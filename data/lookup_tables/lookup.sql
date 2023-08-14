@@ -1,6 +1,6 @@
 --liquibase formatted sql
 --changeset Hareesh:1 runOnChange:true stripComments:false
---comment table for products
+--comment table for products and data insertion
 
 -- Create the main table to store product information
 CREATE TABLE products (
