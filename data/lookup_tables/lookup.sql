@@ -32,3 +32,12 @@ VALUES
     (103, 'Novel', 3, 15.99),
     (104, 'Coffee Maker', 4, 79.99);
 
+--changeset Hareesh:12 runOnChange:true stripComments:false
+--comment new table temp
+CREATE TABLE temp (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100),
+    category_id INT,
+    price DECIMAL(10, 2)
+);
+
